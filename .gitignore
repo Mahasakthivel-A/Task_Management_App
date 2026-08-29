@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build output
+backend/dist/
+frontend/dist/
+
+# Environment variables (never commit secrets)
+backend/.env
+frontend/.env
+
+# Test coverage
+backend/coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Vite
+frontend/.vite/
